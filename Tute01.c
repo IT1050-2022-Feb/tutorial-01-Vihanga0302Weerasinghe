@@ -4,7 +4,23 @@
 
 #include <stdio.h>
 
-int main() {
+int main()
+{
+   int mark,x;
+   float sum=0, average;
+   
+   for(x=1; x<=2; x++)
+   {
+      printf("Enter mark %d:", x);
+      scanf("%d", &mark);
+      sum = sum + mark;
+   }
+   average = sum / x-1;
+   printf("Average :", average)
+   
+}
+ 
+    
   
   return 0;
 }
