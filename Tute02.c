@@ -34,7 +34,7 @@ int main() {
     total = distance * 40;
   }
   
-  printf("Amount :", total);
+  printf("Amount : %.2f", total);
   
   
   return 0;
