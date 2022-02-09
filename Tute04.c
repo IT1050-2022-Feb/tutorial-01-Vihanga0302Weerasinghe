@@ -15,5 +15,19 @@ int main() {
    printf("%d ", minimum(no1, no2));
    printf("%d ", maximum(no1, no2));
    printf("%d ", multiply(no1, no2));
+   
+   int maximum(int num1, int num2);
+   {
+      return (num1>num2) ? num1: num2;
+   }
+   
+   int minimum(int num1, int num2)
+   {
+      return(num1 > num2) ? num2 : num1;
+   }
+   int multyplay(int num1, int num2)
+   {
+      return num2 * num1;
+   }
    return 0;
 }
